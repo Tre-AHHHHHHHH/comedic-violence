@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>The Art of Comedic Violence</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -21,6 +22,29 @@
     </nav>
 
     <main>
+
+<!-- LIGHT AND DARK MODE -->
+<section class="content-box">
+    <h2>Choose Your Theme</h2>
+    <button id="themeButton">Switch Light / Dark Mode</button>
+</section>
+
+<!-- RANDOM FACT GENERATOR -->
+<section class="content-box">
+    <h2>Random Comedic Violence Facts</h2>
+    <p id="factDisplay">Click below for a random fact!</p>
+    <button id="factButton">Generate Random Fact</button>
+</section>
+
+<!-- PERSONALIZED GREETING -->
+<section class="content-box">
+    <h2>Enter the Chaos</h2>
+    <p>What should we call you?</p>
+    <input type="text" id="visitorName" placeholder="Enter a name">
+    <button id="greetingButton">Say Hello</button>
+    <p id="greetingDisplay"></p>
+</section>
+
 
         <section class="content-box">
             <h2>Welcome to the Chaos!</h2>
@@ -92,5 +116,6 @@
         <p>The Art of Comedic Violence - 2026</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

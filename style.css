@@ -125,3 +125,55 @@ footer {
     }
 
 }
+
+/* INTERACTIVE BUTTONS */
+
+button {
+    background-color: #ffcc00;
+    color: black;
+    border: 2px solid white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+button:hover {
+    background-color: #d62828;
+    color: white;
+}
+
+/* NAME INPUT */
+
+input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #ffcc00;
+    margin: 8px;
+}
+
+/* LIGHT MODE */
+
+body.light-mode {
+    background-color: #f5f5f5;
+    color: #171717;
+}
+
+body.light-mode .content-box {
+    background-color: white;
+    color: #171717;
+    border-color: #d62828;
+}
+
+body.light-mode h2 {
+    color: #d62828;
+}
+
+body.light-mode nav {
+    background-color: #d62828;
+}
+
+body.light-mode nav a {
+    color: white;
+}
